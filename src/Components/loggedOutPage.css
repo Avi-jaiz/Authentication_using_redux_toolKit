@@ -1,0 +1,53 @@
+.loggedOutPage
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40rem;
+    height: 15rem;
+   margin-top: 5rem;
+   padding: 1.2rem 0;
+   border-radius:2rem;
+
+}
+
+.loginForm
+{
+    display: flex;  
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 35;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm > input 
+{
+    width: 20rem;
+    height: 1.8rem;
+    border: 2px solid violet;
+}
+
+.loginForm > button 
+{
+    width: 7.2rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(15, 171, 233);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+
+
+
+}
+
+.loginForm > h2 , h3{
+    color: white;
+    font-size: 2rem;
+}
+
